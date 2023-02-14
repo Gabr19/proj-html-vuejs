@@ -6,12 +6,11 @@
     background-color: lightblue;
   }
 
-  .container-center{
-    width: 70%;
-    height: 80%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
+.container-center{
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  
 }
 
 .top-our-services{
@@ -170,71 +169,111 @@
   }
 }
 
+// take the first step
+
+.container-take-the-first-step{
+  width: 100vw;
+  height: 150px;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container-center{
+    .left, .right{
+      height: 100%;
+      width: calc(50%);
+      border: 1px solid black;
+    }
+  }
+}
 
 
-// .container-center{
-//   width: 70%;
-//   height: 80%;
-//   background-color: white;
-//   display: flex;
-//   justify-content: space-between;
-// }
+// our events
 
-// .top-courses{
-// height: 30%;
-// display: block;
-// display: flex;
-// justify-content: center;
-// align-items: flex-end;
+.container-our-events{
+  width: 100vw;
+  height: 500px;
+  background-color: lightblue;
 
-//   .container-center{
-//     text-align: center;
-//     background-color: blue;
-
-//   }
-
-// }
-
-// .bottom-courses{
-// height: 70%;
-// display: flex;
-// justify-content: center;
-
-//     .card-courses{
-//       display: flex;
-//       height: 100%;
-//       width: 100%;
-//       .container-center{
-//         background-color: blue;
-//         width: 70%;
-//         height: 80%;
-//         .left{
-//           height: 100%;
-//           width: calc(100% / 3);
-//           background-color: aqua;
-//         }
-//         .center{
-//           height: 100%;
-//           width: calc(100% / 3);
-//           background-color: gray;
-//         }
-    
-//         .right{
-//           height: 100%;
-//           width: calc(100% / 3);
-//           background-color: lightcoral;
-//         }
-      
-//       }
-//     }
-   
-
-    
-    
-//   }
+  .top-our-events{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
+      .container-center{
+        text-align: center;
+        background-color: blue;
+      }
+  }
 
+  .bottom-our-events{
+    height: 70%;
+    display: block;
+    display: flex;
+    justify-content: center;
 
+    .container-center{
+      background-color: blue;
+      flex-wrap: wrap;
 
+      .first-row{
+        height: 50%;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        margin-bottom: 30px;
 
+          .left, .center, .right{
+            height: 100%;
+            width: calc(100% / 3);
+            border: 1px solid black;
+        }
+      }
 
+      .second-row{
+        height: 50%;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+
+          .left, .center, .right{
+            height: 100%;
+            width: calc(100% / 3);
+            border: 1px solid black;
+          }
+      }
+    }
+  }
+}
+
+// latest news
+
+.container-latest-news{
+  width: 100vw;
+  height: 250px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container-center{
+
+    .left{
+      height: 100%;
+      width: calc(100% / 3);
+      background-color: aqua;
+    }
+    .center{
+      height: 100%;
+      width: calc(100% / 3);
+      background-color: gray;
+    }
+
+    .right{
+      height: 100%;
+      width: calc(100% / 3);
+      background-color: lightcoral;
+    }
+  }
+}
