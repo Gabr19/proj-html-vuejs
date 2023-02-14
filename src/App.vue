@@ -9,6 +9,7 @@ export default {
   name: "App",
   data() {
     return {
+
     };
   },
   components: {
@@ -27,8 +28,8 @@ export default {
   
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 
-  @import './components/styles/main.scss'
+  @import './components/styles/main.scss';
 
 </style>
