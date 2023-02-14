@@ -30,6 +30,6 @@ export default {
 
 <style lang="scss" >
 
-  @import './components/styles/main.scss';
+  @import './components/styles/all.scss';
 
 </style>

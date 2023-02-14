@@ -1,2 +1,240 @@
-@import './reset.scss';
-@import './header.scss';
+// our service
+
+.container-our-services{
+    width: 100vw;
+    height: 500px;
+    background-color: lightblue;
+  }
+
+  .container-center{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-our-services{
+  height: 30%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+    .container-center{
+      text-align: center;
+      background-color: blue;
+
+    }
+
+}
+
+.bottom-our-services{
+  height: 70%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+    .container-center{
+      display: flex;
+      justify-content: space-between;
+      background-color: blue;
+
+      .left{
+        height: 100%;
+        width: 30%;
+        background-color: aqua;
+      }
+      .right{
+        height: 100%;
+        width: 70%;
+        background-color: lightcoral;
+      }
+    }
+}
+
+// play and learn 
+
+.container-play-and-learn{
+    width: 100vw;
+    height: 300px;
+    background-color: lightgreen;
+
+    .top-play-and-learn{
+      height: 50%;
+      width: 100%;
+      background-color: crimson;
+      border: 1px solid black;
+      display: flex;
+
+
+      div {
+        height: 100%;
+        width: calc(100% / 4);
+        border: 1px solid black;
+
+      }
+    }
+
+    .bottom-play-and-learn{
+      height: 50%;
+      width: 100%;
+      background-color: crimson;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .container-center{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left, .center, .right{
+          height: 100%;
+          width: calc(100% / 3);
+          border: 1px solid black;
+        }
+      }
+    }
+}
+
+// courses
+
+.container-courses{
+  width: 100vw;
+  height: 500px;
+  background-color: lightblue;
+
+  .top-courses {
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .center-courses{
+    height: 60%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .container-center{
+        display: flex;
+        justify-content: space-between;
+        .left{
+          height: 100%;
+          width: calc(100% / 3);
+          background-color: aqua;
+        }
+        .center{
+          height: 100%;
+          width: calc(100% / 3);
+          background-color: gray;
+        }
+  
+        .right{
+          height: 100%;
+          width: calc(100% / 3);
+          background-color: lightcoral;
+        }
+
+      }
+    
+
+  }
+
+  .bottom-courses{
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-center{
+      display: flex;
+      justify-content: center;
+
+      .button{
+        width: 100px;
+        height: 100%;
+        border: 1px solid black;
+      }
+    }
+      
+  }
+}
+
+
+
+// .container-center{
+//   width: 70%;
+//   height: 80%;
+//   background-color: white;
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .top-courses{
+// height: 30%;
+// display: block;
+// display: flex;
+// justify-content: center;
+// align-items: flex-end;
+
+//   .container-center{
+//     text-align: center;
+//     background-color: blue;
+
+//   }
+
+// }
+
+// .bottom-courses{
+// height: 70%;
+// display: flex;
+// justify-content: center;
+
+//     .card-courses{
+//       display: flex;
+//       height: 100%;
+//       width: 100%;
+//       .container-center{
+//         background-color: blue;
+//         width: 70%;
+//         height: 80%;
+//         .left{
+//           height: 100%;
+//           width: calc(100% / 3);
+//           background-color: aqua;
+//         }
+//         .center{
+//           height: 100%;
+//           width: calc(100% / 3);
+//           background-color: gray;
+//         }
+    
+//         .right{
+//           height: 100%;
+//           width: calc(100% / 3);
+//           background-color: lightcoral;
+//         }
+      
+//       }
+//     }
+   
+
+    
+    
+//   }
+  
+
+
+
+
+
