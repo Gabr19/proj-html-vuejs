@@ -2,5 +2,43 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.button-white{
+    padding: 5px 30px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+}
+
+.button-yellow{
+    padding: 10px 20px;
+    background-color: #ffcd18;
+    color: black;
+    border-radius: 10px;
+}
+
+.button-yellow-mini{
+    padding: 0px 5px;
+    background-color: #ffcd18;
+    color: black;
+    border-radius: 20px;
+}
+
+.button-no-color{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.yellow{
+    color: #ffcd18;
+}
+
+.italic{
+    font-style: italic;
 }
 
