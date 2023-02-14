@@ -1,4 +1,4 @@
-<script >
+<script>
 export default {
     name: 'AppHeader'
 }; 
@@ -9,7 +9,6 @@ export default {
     <div class="top-header">
       <div class="container-center">
         <div class="left">
-
         </div>
         <div class="right">
 

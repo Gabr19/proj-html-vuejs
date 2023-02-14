@@ -1,4 +1,4 @@
-<script >
+<script>
 
 export default {
     name: 'AppFooter'
@@ -7,8 +7,19 @@ export default {
 </script>
 
 <template>
-  <h1>footer</h1>
+<div class="container">
+  <div class="container-center">
+    <div class="left">
 
+    </div>
+    <div class="center">
+
+    </div>
+    <div class="right">
+
+    </div>
+  </div>
+</div>
 
 </template>
 

@@ -1,0 +1,30 @@
+.container{
+  width: 100vw;
+  height: 150px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    .container-center{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+      
+      .left , .center{
+        height: 100%;
+        width: 25%;
+        background-color: aquamarine;
+        border: 1px solid black;
+       }
+      .right{
+        height: 100%;
+        width: 50%;
+        background-color: aquamarine;
+        border: 1px solid black;
+      }
+      
+    }
+   
+}  
