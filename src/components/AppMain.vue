@@ -251,6 +251,14 @@ export default {
 <div class="container-our-events">
   <div class="top-our-events">
     <div class="container-center">
+      <div>
+        <h2>
+          Our events
+        </h2>
+        <p>
+          Chess is fun and we are happy to prove it at our events!
+        </p>
+      </div>
       
     </div>  
   </div>
@@ -259,25 +267,29 @@ export default {
 
       <div class="first-row">
         <div class="left">
-
+          <img src="../images/mt-2236-home-img4.jpg" alt="">
         </div>
         <div class="center">
-          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sequi perferendis aperiam cum reiciendis totam laborum dolor corrupti est, maxime incidunt sapiente quam numquam exercitationem atque dignissimos nisi ratione ut vero voluptatum officiis, aspernatur nam inventore quo? Voluptatum nam dolor autem, magni quisquam modi molestias deleniti pariatur similique iste delectus?
         </div>
         <div class="right">
-          
+          <button class="button-yellow">
+            Register
+          </button>
         </div>
       </div>
       
       <div class="second-row">
         <div class="left">
-
+          <img src="../images/mt-2236-home-img5.jpg" alt="">
         </div>
         <div class="center">
-          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sequi perferendis aperiam cum reiciendis totam laborum dolor corrupti est, maxime incidunt sapiente quam numquam exercitationem atque dignissimos nisi ratione ut vero voluptatum officiis, aspernatur nam inventore quo? Voluptatum nam dolor autem, magni quisquam modi molestias deleniti pariatur similique iste delectus?
         </div>
         <div class="right">
-          
+          <button class="button-yellow">
+            Register
+          </button>
         </div>
       </div>
       

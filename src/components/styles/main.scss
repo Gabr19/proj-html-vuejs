@@ -250,56 +250,61 @@
 
 .container-our-events{
   width: 100vw;
-  height: 500px;
-  background-color: lightblue;
+  height: 600px;
 
   .top-our-events{
-    height: 30%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 40px 0;
   
       .container-center{
-        text-align: center;
-        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
   }
 
   .bottom-our-events{
-    height: 70%;
+    height: 90%;
     display: block;
     display: flex;
     justify-content: center;
 
     .container-center{
-      background-color: blue;
       flex-wrap: wrap;
 
-      .first-row{
+      .first-row, .second-row{
         height: 50%;
         width: 100%;
-        background-color: aquamarine;
         display: flex;
         margin-bottom: 30px;
 
-          .left, .center, .right{
+          .left{
             height: 100%;
-            width: calc(100% / 3);
-            border: 1px solid black;
+            width: 30%;
+            img{
+              height: 100%;
+              width: 100%;
+              object-fit: cover;
+            }
         }
+          .center{
+          height: 100%;
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 20px;
       }
-
-      .second-row{
-        height: 50%;
-        width: 100%;
-        background-color: aquamarine;
-        display: flex;
-
-          .left, .center, .right{
+          .right{
             height: 100%;
-            width: calc(100% / 3);
-            border: 1px solid black;
-          }
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
       }
     }
   }
