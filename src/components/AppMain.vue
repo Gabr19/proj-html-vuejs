@@ -226,11 +226,21 @@ export default {
 <div class="container-take-the-first-step">
   <div class="container-center">
     <div class="left">
-
+      <div>
+        <h1>
+          TAKE THE <span class="yellow">FIRST STEP</span>  
+        </h1>
+        <p>
+          The fascinating world of chess has its doors open for anyone
+        </p>
+      </div>
+      
     </div>
     
     <div class="right">
-
+      <button id="btn-take-the-first-step" class="button-yellow">
+        View More
+      </button>
     </div>
     
   </div>
@@ -298,5 +308,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
+.container-take-the-first-step{
+    background-image: url(../images/mt-2236-home-bg2.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
 
 </style>

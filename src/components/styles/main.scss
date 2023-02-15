@@ -224,17 +224,24 @@
 
 .container-take-the-first-step{
   width: 100vw;
-  height: 150px;
-  background-color: lightseagreen;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .left, .right{
-      height: 100%;
+      color: white;
+      height: 50%;
       width: calc(50%);
-      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      #btn-take-the-first-step{
+        margin-left: 300px;
+      }
     }
   }
 }
