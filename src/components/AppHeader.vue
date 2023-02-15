@@ -10,7 +10,8 @@ export default {
       <div class="container-center-top-header">
         <div class="left">
           <div>
-            (icona) 6767 Santa Monica Blvd, Los Angeles, CA 90038
+            <font-awesome-icon id="icon-top-header"  class="yellow" icon="fa-solid fa-location-dot" />
+            6767 Santa Monica Blvd, Los Angeles, CA 90038
           </div>
           <div id="home-logo">
             <img src="../images/mt-2236-home-logo.png" alt="">
@@ -19,7 +20,9 @@ export default {
 
         <div class="right">
           <div id="top-right">
-            <div>(icona)Call Now 123-456-7890</div>
+            <div>
+              <font-awesome-icon class="yellow" icon="fa-solid fa-phone" />
+              Call Now 123-456-7890</div>
             <div>
               <button class="button-white">Donate</button>
 
