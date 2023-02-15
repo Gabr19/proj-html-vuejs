@@ -69,9 +69,7 @@ export default {
             <h4>Best Chess Opening</h4>
             Our students know all the best chess openings and how to use them.
           </div>
-
         </div>
-        
       </div>
     </div>
 </div>
@@ -80,22 +78,40 @@ export default {
 
 <div class="container-play-and-learn">
   <div class="top-play-and-learn">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>
+      <img src="../images/mt-2236-home-gallery1.jpg" alt="">
+    </div>
+    <div>
+      <img src="../images/mt-2236-home-gallery2.jpg" alt="">
+    </div>
+    <div>
+      <img src="../images/mt-2236-home-gallery3.jpg" alt="">
+    </div>
+    <div>
+      <img src="../images/mt-2236-home-gallery4.jpg" alt="">
+    </div>
     
   </div>
   <div class="bottom-play-and-learn">
     <div class="container-center">
       <div class="left">
-
+        <img src="../images/mt-2236-home-icon5.png" alt="">
       </div>
       <div class="center">
-
+        <div>
+          <h1>
+          PLAY & Learn
+        </h1>
+        <p>
+          Take a Look into our day to day life here at Chess School
+        </p>
+        </div>
+        
       </div>
       <div class="right">
-
+        <button class="button-yellow">
+          Learn More
+        </button>
       </div>
       
     </div>
