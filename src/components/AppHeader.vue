@@ -71,7 +71,7 @@ export default {
               Enroll Now
             </button>
 
-            <button class="button-no-color">
+            <button id="btn-header-learn-more">
               Learn More
             </button>
           </div>

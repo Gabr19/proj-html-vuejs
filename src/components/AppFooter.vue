@@ -38,10 +38,10 @@ export default {
 
     <div class="right">
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, ratione!
+        Subscribe to get the latest news, course updates, discounts, events
       </p>
-      <div class="topnav">
-        <input type="text" placeholder="Enter your e-mail here *">
+      <div>
+        <input id="input-footer" type="text" placeholder="Enter your e-mail here *">
       </div>
       <button class="button-yellow">
         Subscribe

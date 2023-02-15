@@ -15,7 +15,6 @@ export default {
           <h2>OUR SERVICES</h2> 
           <p>We make your child happy day after day</p>
         </div>
-        
       </div>  
     </div>
     <div class="bottom-our-services">
@@ -148,7 +147,7 @@ export default {
             <p>
               Learn the tips, tricks, and strategies from one  of the best master
             </p>
-            <p>
+            <p class="bold">
               $456
             </p>
             <div id="btn-courses-card">
@@ -172,7 +171,7 @@ export default {
             <p>
               Learn the tips, tricks, and strategies from one  of the best master
             </p>
-            <p>
+            <p class="bold">
               $456
             </p>
             <div id="btn-courses-card">
@@ -196,7 +195,7 @@ export default {
             <p>
               Learn the tips, tricks, and strategies from one  of the best master
             </p>
-            <p>
+            <p class="bold">
               $456
             </p>
             <div id="btn-courses-card">
@@ -270,7 +269,14 @@ export default {
           <img src="../images/mt-2236-home-img4.jpg" alt="">
         </div>
         <div class="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sequi perferendis aperiam cum reiciendis totam laborum dolor corrupti est, maxime incidunt sapiente quam numquam exercitationem atque dignissimos nisi ratione ut vero voluptatum officiis, aspernatur nam inventore quo? Voluptatum nam dolor autem, magni quisquam modi molestias deleniti pariatur similique iste delectus?
+          <div>
+            <h2>
+              Grand Summer Tournament of 2021
+            </h2>
+            <p>
+              Join us for the grand Summer Tournament 2021. Held every year on the first Sunday of summer, our Grand Summer Tournament chess masters and beginners from North California. We have competitions for different levels of chess mastery with amazing prizes awarded at each level.
+            </p>
+          </div>
         </div>
         <div class="right">
           <button class="button-yellow">
@@ -284,7 +290,15 @@ export default {
           <img src="../images/mt-2236-home-img5.jpg" alt="">
         </div>
         <div class="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sequi perferendis aperiam cum reiciendis totam laborum dolor corrupti est, maxime incidunt sapiente quam numquam exercitationem atque dignissimos nisi ratione ut vero voluptatum officiis, aspernatur nam inventore quo? Voluptatum nam dolor autem, magni quisquam modi molestias deleniti pariatur similique iste delectus?
+          <div>
+            <h2>
+              World Chess Day
+            </h2>
+            <p>
+              Celebrated on July 20 every year, World Chess Day is one of the biggest events at our school. Be ready for fun tournaments and big prizes. Registration is obligatory!
+            </p>
+          </div>
+
         </div>
         <div class="right">
           <button class="button-yellow">
@@ -318,7 +332,7 @@ export default {
           <img src="../images/mt-2236-blog-img1.jpg" alt="">
         </div>
         <div class="text-latest-news">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          The most common mistakes when managing personal finances
         </div>
         
       </div>
@@ -327,7 +341,7 @@ export default {
           <img src="../images/mt-2236-blog-img2.jpg" alt="">
         </div>
         <div class="text-latest-news">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Methods of the recruitment
         </div>
         
       </div>

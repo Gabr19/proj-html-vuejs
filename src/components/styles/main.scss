@@ -1,7 +1,7 @@
 // our service
 .container-our-services{
     width: 100vw;
-    height: 500px;
+    height: 600px;
   }
 
 .container-center{
@@ -46,14 +46,14 @@
       .left{
         min-height: 100%;
         width: 30%;
-        margin-right: 30px;
+        margin-right: 40px;
         h3{
           margin: 10px 0;
         }
         #OS-left-list{
           margin: 10px 10px;
           div{
-            margin: 10px 0;
+            margin: 15px 0;
           }
         }
       }
@@ -65,6 +65,7 @@
           div{
             height: 50%;
             width: 50%;
+            padding: 0 10px;
             *{
               margin: 5px 0;
             }
@@ -297,6 +298,13 @@
           justify-content: center;
           align-items: center;
           padding-left: 20px;
+          div{
+            h2{
+              text-align: left;
+              margin-bottom: 10px;
+            }
+          }
+          
       }
           .right{
             height: 100%;
@@ -330,8 +338,8 @@
       div{
         hr{
           margin: 20px 0;
-          color: #FFCD18;
-          width: 50%;
+          border: 2px solid #FFCD18;
+          width: 20%;
         }
       }
     }
@@ -340,6 +348,7 @@
       width: 30%;
       div{
         height: 100%;
+        margin-bottom: 10px;
         img{
           height: 100%;
           width: 100%;
@@ -353,10 +362,12 @@
       width: 30%;
       div{
         height: 100%;
+        margin-bottom: 10px;
         img{
           height: 100%;
           width: 100%;
           background-size: contain;
+
         }
       }
       
