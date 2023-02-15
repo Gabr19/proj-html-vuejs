@@ -106,6 +106,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+    #icon-phone-round{
+      background-color: white;
+      padding: 10px 10px;
+      border-radius: 50px;
+      position: absolute;
+      left: 0;
+
+    }
 
     .container-center{
       display: flex;

@@ -46,6 +46,10 @@ export default {
     </div>
 
     <div class="bottom-header">
+      <div id="icon-phone-round" >
+        <font-awesome-icon class="yellow" icon="fa-solid fa-phone" />
+
+      </div>
       <div class="container-center">
         <div class="only-left">
           <div>
