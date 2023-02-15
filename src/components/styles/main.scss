@@ -314,28 +314,52 @@
 
 .container-latest-news{
   width: 100vw;
-  height: 250px;
-  background-color: lightblue;
+  height: 400px;
+  background-color: #e8e8e8;
   display: flex;
   justify-content: center;
   align-items: center;
   .container-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     .left{
-      height: 100%;
-      width: calc(100% / 3);
-      background-color: aqua;
+      height: 80%;
+      width: 30%;
+      div{
+        hr{
+          margin: 20px 0;
+          color: #FFCD18;
+          width: 50%;
+        }
+      }
     }
     .center{
-      height: 100%;
-      width: calc(100% / 3);
-      background-color: gray;
+      height: 80%;
+      width: 30%;
+      div{
+        height: 100%;
+        img{
+          height: 100%;
+          width: 100%;
+          background-size: contain;
+        }
+      }
     }
 
     .right{
-      height: 100%;
-      width: calc(100% / 3);
-      background-color: lightcoral;
+      height: 80%;
+      width: 30%;
+      div{
+        height: 100%;
+        img{
+          height: 100%;
+          width: 100%;
+          background-size: contain;
+        }
+      }
+      
     }
   }
 }

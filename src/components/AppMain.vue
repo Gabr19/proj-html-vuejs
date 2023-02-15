@@ -302,12 +302,33 @@ export default {
   <div class="container-latest-news">
     <div class="container-center">
       <div class="left">
+        <div>
+          <h1>
+            Latest News
+          </h1>
+          <hr>
+          <button class="button-no-color">
+            View Other Post
+          </button>
+        </div>
 
       </div>
       <div class="center">
+        <div class="img-latest-news">
+          <img src="../images/mt-2236-blog-img1.jpg" alt="">
+        </div>
+        <div class="text-latest-news">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </div>
         
       </div>
       <div class="right">
+        <div class="img-latest-news">
+          <img src="../images/mt-2236-blog-img2.jpg" alt="">
+        </div>
+        <div class="text-latest-news">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </div>
         
       </div>
       
