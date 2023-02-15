@@ -141,67 +141,80 @@
 
 .container-courses{
   width: 100vw;
-  height: 500px;
-  background-color: lightblue;
+  height: 700px;
 
   .top-courses {
-    height: 20%;
+    height: 10%;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    .container-center{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      h1{
+        text-align: center;
+      }
+    }
     
   }
 
   .center-courses{
-    height: 60%;
+    height: 70%;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
       .container-center{
         display: flex;
         justify-content: space-between;
-        .left{
+        .left, .center, .right{
+          border: 2px solid #e8e8e8;
           height: 100%;
-          width: calc(100% / 3);
-          background-color: aqua;
-        }
-        .center{
-          height: 100%;
-          width: calc(100% / 3);
-          background-color: gray;
-        }
-  
-        .right{
-          height: 100%;
-          width: calc(100% / 3);
-          background-color: lightcoral;
-        }
+          width: calc(100% / 3.5);
+          .img-card-courses{
+            height: 40%;
+            width: 100%;
+            img{
+              height: 100%;
+              width: 100%;
+              background-size: cover;
+            }
+          }
+          .text-card-courses{
+            height: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            div{
+              margin: 10px 30px;
+              #btn-courses-card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
 
+              *{
+                text-align: center;
+                margin: 10px 0;
+              }
+            }
+          }
+        }
       }
-    
-
   }
 
   .bottom-courses{
-    height: 20%;
+    height: 10%;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     .container-center{
       display: flex;
       justify-content: center;
-
-      .button{
-        width: 100px;
-        height: 100%;
-        border: 1px solid black;
-      }
     }
       
   }
@@ -225,7 +238,6 @@
     }
   }
 }
-
 
 // our events
 

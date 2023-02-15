@@ -75,7 +75,6 @@ export default {
 </div>
 
     <!-- play and learn  -->
-
 <div class="container-play-and-learn">
   <div class="top-play-and-learn">
     <div>
@@ -123,27 +122,101 @@ export default {
 <div class="container-courses">
   <div class="top-courses">
     <div class="container-center">
-      
+      <div>
+        <h1>
+          Courses
+        </h1>
+        <p>
+          To Keep up with the constantly rising standards of play
+        </p>
+      </div>
     </div>  
   </div>
+
   <div class="center-courses">
     <div class="container-center">
-
+      
       <div class="left">
+        <div class="img-card-courses">
+          <img src="../images/mt-2236-home-img1.jpg" alt="">
+        </div>
+        <div class="text-card-courses">
+          <div>
+            <h2>
+            Garry Kasparov's Masterclass
+            </h2>
+            <p>
+              Learn the tips, tricks, and strategies from one  of the best master
+            </p>
+            <p>
+              $456
+            </p>
+            <div id="btn-courses-card">
+              <button class=" button-yellow">
+                View More
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="center">
+        <div class="img-card-courses">
+          <img src="../images/mt-2236-home-img2.jpg" alt="">
+        </div>
+        <div class="text-card-courses">
+          <div>
+            <h2>
+            Garry Kasparov's Masterclass
+            </h2>
+            <p>
+              Learn the tips, tricks, and strategies from one  of the best master
+            </p>
+            <p>
+              $456
+            </p>
+            <div id="btn-courses-card">
+              <button class=" button-yellow">
+                View More
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="right">
+        <div class="img-card-courses">
+          <img src="../images/mt-2236-home-img3.jpg" alt="">
+        </div>
+        <div class="text-card-courses">
+          <div>
+            <h2>
+            Garry Kasparov's Masterclass
+            </h2>
+            <p>
+              Learn the tips, tricks, and strategies from one  of the best master
+            </p>
+            <p>
+              $456
+            </p>
+            <div id="btn-courses-card">
+              <button class=" button-yellow">
+                View More
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
+
   <div class="bottom-courses">
     <div class="container-center">
-      <div class="button">
-
+      <div >
+        <button class="button-no-color">        
+          View Other Courses
+        </button>
       </div>
     </div>  
   </div>
