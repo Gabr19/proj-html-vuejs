@@ -11,14 +11,19 @@ import {
     faPhone,
     faUserSecret,
 
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons';
+
+import { faFacebookF, faInstagram, faTelegram } from '@fortawesome/free-brands-svg-icons'
 
 
 
 library.add(
     faUserSecret,
     faLocationDot,
-    faPhone
+    faPhone,
+    faFacebookF,
+    faTelegram,
+    faInstagram
     )
 
 createApp(App)
