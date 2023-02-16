@@ -1,7 +1,17 @@
 <script>
+import MenuHeader from '../components/MenuHeader.vue'
 export default {
-    name: 'AppHeader'
-}; 
+    name: 'AppHeader',
+  data() {
+    return {
+      
+    };
+  },
+  components: {
+    MenuHeader
+  }
+}
+; 
 </script>
 
 <template>
@@ -29,17 +39,7 @@ export default {
             </div>
           </div>
           <div id="bottom-right">
-            <div>
-              <ul>
-                <li class="yellow">Home</li>
-                <li>Services</li>
-                <li>Courses</li>
-                <li>About</li>
-                <li>FAQ</li>
-                <li>Blog</li>
-                <li>Contact Us</li>
-              </ul>
-            </div>
+            <MenuHeader/>
           </div>
         </div>
       </div>
